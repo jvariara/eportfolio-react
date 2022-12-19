@@ -11,7 +11,7 @@ export const projects = [
     description:
       "Transformed a completely static HTML, CSS, JavaScript and React single page application into an interactive user interface through the use of animations, transitions and carousels.",
     tech: ["React", "JavaScript", "CSS", "HTML"],
-    picture: NFTLanding,
+    pictures: [NFTLanding, NFTLanding],
     certificate: true
   },
   {
@@ -22,7 +22,7 @@ export const projects = [
     description:
       "Created a fully dynamic E-Commerce website with a working shopping cart, item details page with recommendations, and filtering.",
     tech: ["React", "JavaScript", "CSS", "HTML"],
-    picture: LibraryLanding,
+    pictures: [LibraryLanding],
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const projects = [
     description:
       "Designed, developed, and hosted from scratch a movie/TV lookup app using HTML5, CSS3 + BEM and React best practices.",
     tech: ["React", "Redux", "JavaScript", "CSS", "HTML"],
-    picture: MovieLanding,
+    pictures: [MovieLanding],
   },
   {
     id: 4,
@@ -42,6 +42,6 @@ export const projects = [
     description:
       "Application clone based on Netflix which uses Firebase for Google Sign-in/Logout Authentication as well as for the user database.",
     tech: ["React", "Firebase", "Tailwind", "JavaScript", "HTML"],
-    picture: NetflixLanding,
+    pictures: [NetflixLanding],
   },
 ];
