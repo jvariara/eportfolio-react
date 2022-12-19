@@ -8,7 +8,6 @@ export const projects = [
     id: 1,
     title: "NFT Marketplace",
     url: "https://justin-internship.vercel.app/",
-    github: "https://github.com/jvariara/justin-internship",
     description:
       "Transformed a completely static HTML, CSS, JavaScript and React single page application into an interactive user interface through the use of animations, transitions and carousels.",
     tech: ["React", "JavaScript", "CSS", "HTML"],
