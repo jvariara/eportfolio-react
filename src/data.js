@@ -13,6 +13,7 @@ export const projects = [
       "Transformed a completely static HTML, CSS, JavaScript and React single page application into an interactive user interface through the use of animations, transitions and carousels.",
     tech: ["React", "JavaScript", "CSS", "HTML"],
     picture: NFTLanding,
+    certificate: true
   },
   {
     id: 2,
@@ -41,7 +42,7 @@ export const projects = [
     github: "https://github.com/jvariara/netflix-clone",
     description:
       "Application clone based on Netflix which uses Firebase for Google Sign-in/Logout Authentication as well as for the user database.",
-    tech: ["React", "Firebase", "JavaScript", "Tailwind", "HTML"],
+    tech: ["React", "Firebase", "Tailwind", "JavaScript", "HTML"],
     picture: NetflixLanding,
   },
 ];

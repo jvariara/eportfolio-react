@@ -23,7 +23,7 @@ const Projects = () => {
               <p className="text-white text-2xl p-4">{project.description}</p>
               <div className="flex flex-wrap">
                 {project.tech.map((tech) => (
-                  <span className="text-white border border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">
+                  <span className="text-white border-2 border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">
                     {tech}
                   </span>
                 ))}
@@ -45,33 +45,19 @@ const Projects = () => {
                     Github
                   </a>
                 )}
+                {project.certificate && (
+                  <a
+                    href="./assets/FESCertificate.pdf"
+                    target="_blank"
+                    className="text-red-500 bg-white px-8 py-2 m-4 rounded-md text-2xl"
+                  >
+                    Certificate
+                  </a>
+                )}
               </div>
             </div>
           </div>
         ))}
-        {/* <div className="rounded-lg overflow-hidden shadow-md">
-          <figure>
-            <img src={projects[0].picture} alt="" />
-          </figure>
-          <div className="bg-red-500">
-            <h1 className="text-white text-3xl font-semibold p-4">NFT Marketplace</h1>
-            <p className="text-white text-2xl p-4">
-              Transformed a completely static HTML, CSS, JavaScript and React
-              single page application into an interactive user interface through
-              the use of animations, transitions and carousels
-            </p>
-            <div className="flex flex-wrap">
-                <span className="text-white border border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">React</span>
-                <span className="text-white border border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">React</span>
-                <span className="text-white border border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">React</span>
-                <span className="text-white border border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">React</span>
-                <span className="text-white border border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">React</span>
-            </div>
-            <div className="flex">
-                <a href="https://justin-internship.vercel.app/" target="_blank" className="text-red-500 bg-white px-8 py-2 m-4 rounded-md text-2xl" >Live</a>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );
