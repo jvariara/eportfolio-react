@@ -90,7 +90,7 @@ const Project = ({ project }) => {
         <p className="text-white text-2xl p-4">{project.description}</p>
         <div className="flex flex-wrap">
           {project.tech.map((tech) => (
-            <span className="text-white border-2 border-white border-solid px-6 py-2 m-4 rounded-md text-2xl">
+            <span className="text-white border-2 border-white border-solid px-6 py-2 m-4 rounded-md text-2xl hidden md:block">
               {tech}
             </span>
           ))}
