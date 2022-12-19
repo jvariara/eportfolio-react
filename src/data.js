@@ -1,7 +1,22 @@
 import NFTLanding from "./assets/projects/NFTMarket/NFTLanding.png";
+import NFTCollections from "./assets/projects/NFTMarket/NFTCollections.png";
+import NFTExplore from "./assets/projects/NFTMarket/NFTExplore.png";
+import NFTItem from "./assets/projects/NFTMarket/NFTItem.png";
+import NFTAuthor from "./assets/projects/NFTMarket/NFTAuthor.png";
+import NFTLoading from "./assets/projects/NFTMarket/NFTLoading.png";
+
 import LibraryLanding from "./assets/projects/LibraryReact/LibraryLanding.png";
+import LibraryBooks from "./assets/projects/LibraryReact/LibraryBooks.png";
+import LibraryBook from "./assets/projects/LibraryReact/LibraryBook.png";
+import LibraryCart from "./assets/projects/LibraryReact/LibraryCart.png";
+import LibraryLoading from "./assets/projects/LibraryReact/LibraryLoading.png";
+
 import MovieLanding from "./assets/projects/MovieSearcher/MovieLanding.png";
+import MovieList from "./assets/projects/MovieSearcher/MovieList.png";
+import MovieDetail from "./assets/projects/MovieSearcher/MovieDetail.png";
+
 import NetflixLanding from "./assets/projects/Netflix/NetflixLanding.png"
+import NetflixSignIn from "./assets/projects/Netflix/NetflixSignIn.png"
 
 export const projects = [
   {
@@ -11,7 +26,7 @@ export const projects = [
     description:
       "Transformed a completely static HTML, CSS, JavaScript and React single page application into an interactive user interface through the use of animations, transitions and carousels.",
     tech: ["React", "JavaScript", "CSS", "HTML"],
-    pictures: [NFTLanding, NFTLanding],
+    pictures: [NFTLanding, NFTCollections, NFTExplore, NFTItem, NFTAuthor, NFTLoading],
     certificate: true
   },
   {
@@ -22,7 +37,7 @@ export const projects = [
     description:
       "Created a fully dynamic E-Commerce website with a working shopping cart, item details page with recommendations, and filtering.",
     tech: ["React", "JavaScript", "CSS", "HTML"],
-    pictures: [LibraryLanding],
+    pictures: [LibraryLanding, LibraryBooks, LibraryBook, LibraryCart, LibraryLoading],
   },
   {
     id: 3,
@@ -30,9 +45,9 @@ export const projects = [
     url: "https://movies-pi-jade.vercel.app/",
     github: "https://github.com/jvariara/Movies",
     description:
-      "Designed, developed, and hosted from scratch a movie/TV lookup app using HTML5, CSS3 + BEM and React best practices.",
+      "Designed, developed, and hosted from scratch a movie/TV lookup app using HTML5, CSS3 + BEM and React best practices. Uses the OMDB API.",
     tech: ["React", "Redux", "JavaScript", "CSS", "HTML"],
-    pictures: [MovieLanding],
+    pictures: [MovieLanding, MovieList, MovieDetail],
   },
   {
     id: 4,
@@ -42,6 +57,6 @@ export const projects = [
     description:
       "Application clone based on Netflix which uses Firebase for Google Sign-in/Logout Authentication as well as for the user database.",
     tech: ["React", "Firebase", "Tailwind", "JavaScript", "HTML"],
-    pictures: [NetflixLanding],
+    pictures: [NetflixLanding, NetflixSignIn],
   },
 ];
