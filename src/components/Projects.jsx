@@ -5,7 +5,11 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="py-[80px] w-full max-w-[1250px] m-auto px-4 xs:px-6">
+      <div
+        className="py-[80px] w-full max-w-[1250px] m-auto px-4 xs:px-6"
+        data-aos="fade-in"
+        data-aos-duration="1500"
+      >
         <div className="flex flex-col justify-center items-center">
           <h6 className="text-red-500 font-semibold text-3xl items-center">{`<>Projects</>`}</h6>
           <h1 className="text-3xl md:text-5xl my-4 font-bold text-white">

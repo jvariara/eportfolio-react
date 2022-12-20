@@ -13,7 +13,13 @@ const Tech = () => {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 xs:gap-y-12 mx-4">
           {technologies.map((tech) => (
-            <div key={tech.id} className="bg-[#333333] rounded-md overflow-hidden hover:bg-red-500 hover:cursor-pointer duration-500 ease-in-out shadow-md p-6">
+            <div
+              key={tech.id}
+              className="bg-[#333333] rounded-md overflow-hidden hover:bg-red-500 hover:cursor-pointer duration-500 ease-in-out shadow-md p-6"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-delay={`150` * tech.id}
+            >
               <figure className="p-4 relative flex flex-col items-center group">
                 <img className="w-[80px] " src={tech.picture} alt="" />
                 <span className="text-white absolute bottom-[-10px] scale-0 duration-300 ease-in-out font-bold group-hover:scale-100 ">

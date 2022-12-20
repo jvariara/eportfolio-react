@@ -38,7 +38,12 @@ const Project = ({ project }) => {
   }
 
   return (
-    <div className="rounded-lg bg-red-500 overflow-hidden shadow-md">
+    <div
+      className="rounded-lg bg-red-500 overflow-hidden shadow-md"
+      data-aos={project.id % 2 === 0 ? `fade-left` : `fade-right`}
+      data-aos-duration="1500"
+      data-aos-delay={`150` * project.id}
+    >
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
           {project.pictures.map((picture, idx) => (
