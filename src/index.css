@@ -85,3 +85,65 @@ body {
 .arrow--disabled {
   opacity: 0.5;
 }
+
+/* FORM */
+.form__item {
+  margin-bottom: 20px;
+}
+
+.form__submit {
+  background-color: #f56565;
+  border: 2px solid #f56565;
+  border-radius: 90px;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  max-width: 200px;
+  padding: 12px 24px;
+  font-size: 20px;
+  transition: all 350ms ease;
+}
+
+.form__submit:hover {
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.form__submit:active {
+  border-color: #f56565;
+  color: #f56565;
+}
+
+.form__item--label {
+  color: #fff;
+}
+
+input, textarea {
+  width: 100%;
+  background-color: #242424;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #c0c4cc;
+  height: 40px;
+  transition: all 350ms ease;
+}
+
+input:hover, textarea:hover {
+  border-color: #dcdfe6;
+}
+
+input:focus, textarea:focus {
+  border-color: #f56565;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+  margin-top: 8px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import Certificate from "../assets/FESCertificate.pdf"
+import Certificate from "../assets/FESCertificate.pdf";
 
 const Project = ({ project }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -41,8 +41,13 @@ const Project = ({ project }) => {
     <div className="rounded-lg bg-red-500 overflow-hidden shadow-md">
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
-          {project.pictures.map((picture) => (
-            <img className="keen-slider__slide" src={picture} alt="" />
+          {project.pictures.map((picture, idx) => (
+            <img
+              key={idx}
+              className="keen-slider__slide"
+              src={picture}
+              alt=""
+            />
           ))}
         </div>
         {loaded && instanceRef.current && (
@@ -91,7 +96,10 @@ const Project = ({ project }) => {
         <p className="text-white text-2xl p-4">{project.description}</p>
         <div className="flex flex-wrap">
           {project.tech.map((tech) => (
-            <span className="text-white border-2 border-white border-solid px-6 py-2 m-4 rounded-md text-2xl hidden md:block">
+            <span
+              key={tech}
+              className="text-white border-2 border-white border-solid px-6 py-2 m-4 rounded-md text-2xl hidden md:block"
+            >
               {tech}
             </span>
           ))}
