@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const menu = [
     { name: "About", link: "/" },
-    { name: "Projects", link: "/" },
+    { name: "Projects", link: "#projects" },
     { name: "Contact", link: "/" },
   ];
 

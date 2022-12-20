@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import Certificate from "../assets/FESCertificate.pdf"
 
 const Project = ({ project }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -114,7 +115,7 @@ const Project = ({ project }) => {
           )}
           {project.certificate && (
             <a
-              href="./assets/FESCertificate.pdf"
+              href={Certificate}
               target="_blank"
               className="text-red-500 bg-white px-8 py-2 m-4 rounded-md text-2xl hover:opacity-75 duration-300"
             >

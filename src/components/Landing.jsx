@@ -3,6 +3,7 @@ import HeaderImg from "../assets/header-img.svg";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+import Resume from "../assets/Resume.pdf"
 
 const Landing = () => {
   return (
@@ -28,7 +29,7 @@ const Landing = () => {
             <div className="flex text-red-500">
                 <a className="mr-5 hover:scale-125 duration-300 ease-in-out" href="https://github.com/jvariara" target="_blank"><GitHubIcon /></a>
                 <a className="mr-5 hover:scale-125 duration-300 ease-in-out" href="https://www.linkedin.com/in/justin-variara-a2183a22a/" target="_blank"><LinkedInIcon /></a>
-                <a className="mr-5 hover:scale-125 duration-300 ease-in-out" href='../assets/Resume.pdf'><PictureAsPdfIcon /></a>
+                <a className="mr-5 hover:scale-125 duration-300 ease-in-out" href={Resume} target="_blank"><PictureAsPdfIcon /></a>
             </div>
           </div>
           <div className="xs:hidden">
