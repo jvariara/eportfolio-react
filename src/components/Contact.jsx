@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-center">
           <h6 className="text-red-500 font-semibold text-3xl items-center">{`<>Contact Me</>`}</h6>
           <h1 className="text-3xl md:text-5xl my-4 font-bold text-white">
-            Let's get to talking!
+            Lets get to talking!
           </h1>
         </div>
         <form ref={form} id="contact__form" onSubmit={sendEmail}>
