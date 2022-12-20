@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="shadow-md w-full top-0 left-0 z-[100] px-8">
+    <nav className="bg-[#333333] shadow-md w-full top-0 left-0 z-[100] px-8">
       <div className="md:flex items-center justify-between py-2 max-w-[1250px] m-auto">
         <div className="font-bold text-3xl cursor-pointer flex items-center text-white">
           <img

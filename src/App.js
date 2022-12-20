@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import Projects from "./components/Projects";
 import Tech from "./components/Tech";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Tech />
       <Projects />
       <Contact />
+      <Footer />
     </Router>
   );
 }
