@@ -18,6 +18,15 @@ import MovieDetail from "./assets/projects/MovieSearcher/MovieDetail.png";
 import NetflixLanding from "./assets/projects/Netflix/NetflixLanding.png"
 import NetflixSignIn from "./assets/projects/Netflix/NetflixSignIn.png"
 
+import ReactImg from "./assets/languages/react.png";
+import JSImg from "./assets/languages/javascript.png";
+import HTMLImg from "./assets/languages/html5.png";
+import CSSImg from "./assets/languages/css3.png";
+import PythonImg from "./assets/languages/python.png";
+import JavaImg from "./assets/languages/java.png";
+import ScalaImg from "./assets/languages/scala.png";
+import CImg from "./assets/languages/c.png";
+
 export const projects = [
   {
     id: 1,
@@ -60,3 +69,46 @@ export const projects = [
     pictures: [NetflixLanding, NetflixSignIn],
   },
 ];
+
+export const technologies = [
+  {
+    id: 1,
+    language: "React",
+    picture: ReactImg
+  },
+  {
+    id: 2,
+    language: "JavaScript",
+    picture: JSImg
+  },
+  {
+    id: 3,
+    language: "HTML5",
+    picture: HTMLImg
+  },
+  {
+    id: 4,
+    language: "CSS3",
+    picture: CSSImg
+  },
+  {
+    id: 5,
+    language: "Python",
+    picture: PythonImg
+  },
+  {
+    id: 6,
+    language: "Java",
+    picture: JavaImg
+  },
+  {
+    id: 7,
+    language: "C",
+    picture: CImg
+  },
+  {
+    id: 8,
+    language: "Scala",
+    picture: ScalaImg
+  },
+]
