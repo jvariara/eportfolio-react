@@ -18,6 +18,19 @@ import MovieDetail from "./assets/projects/MovieSearcher/MovieDetail.png";
 import NetflixLanding from "./assets/projects/Netflix/NetflixLanding.png"
 import NetflixSignIn from "./assets/projects/Netflix/NetflixSignIn.png"
 
+import PromptLanding from "./assets/projects/Promptopia/Landing.png"
+import PromptProfile from "./assets/projects/Promptopia/Profile.png"
+import PromptEdit from "./assets/projects/Promptopia/Edit.png"
+import PromptCreate from "./assets/projects/Promptopia/Create.png"
+
+import CircleUBLanding from "./assets/projects/CircleUB/Landing.png"
+import CircleUBLogin from "./assets/projects/CircleUB/Login.png"
+import CircleUBUserHomepage from "./assets/projects/CircleUB/UserHomepage.png"
+import CircleUBProfile from "./assets/projects/CircleUB/Profile.png"
+import CircleUBOtherProfile from "./assets/projects/CircleUB/OtherProfile.png"
+import CircleUBCommentPage from "./assets/projects/CircleUB/CommentPage.png"
+import CircleUBDM from "./assets/projects/CircleUB/DM.png"
+
 import ReactImg from "./assets/languages/react.png";
 import JSImg from "./assets/languages/javascript.png";
 import HTMLImg from "./assets/languages/html5.png";
@@ -50,6 +63,23 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Promptopia",
+    url: "https://promptopia-jvariara.vercel.app/",
+    github: "https://github.com/jvariara/Promptopia",
+    description: "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts. Created with Next.js and MongoDB",
+    tech: ["Next.js", "MongoDB", "Tailwind CSS"],
+    pictures: [PromptLanding, PromptProfile, PromptCreate, PromptEdit],
+  },
+  {
+    id: 4,
+    title: "CircleUB",
+    url: "https://webdev.cse.buffalo.edu/hci/teams/pentagon",
+    description: "Social Media application catered towards University at Buffalo students to find clubs and events. Created with React",
+    tech: ["React", "CSS", "Zenhub", "Figma"],
+    pictures: [CircleUBLanding, CircleUBLogin, CircleUBUserHomepage, CircleUBCommentPage, CircleUBDM, CircleUBProfile, CircleUBOtherProfile]
+  },
+  {
+    id: 5,
     title: "Movie/TV Searcher",
     url: "https://movies-pi-jade.vercel.app/",
     github: "https://github.com/jvariara/Movies",
@@ -59,7 +89,7 @@ export const projects = [
     pictures: [MovieLanding, MovieList, MovieDetail],
   },
   {
-    id: 4,
+    id: 6,
     title: "Netflix Clone",
     url: "https://netflix-clone-1dcd3.web.app/",
     github: "https://github.com/jvariara/netflix-clone",
