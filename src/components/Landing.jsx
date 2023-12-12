@@ -4,6 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import Resume from "../assets/Resume.pdf";
+import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,7 +35,22 @@ const Landing = () => {
               data-aos-duration="1500"
               data-aos-delay="500"
             >
-              Frontend Developer
+              <TypeAnimation
+                sequence={[
+                  "Software Engineer",
+                  1000,
+                  "Web Developer",
+                  1000,
+                  "UI/UX",
+                  1000,
+                  "Frontend Developer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                // style={{ fontSize: "2em", display: "inline-block" }}
+                repeat={Infinity}
+              />
             </h2>
             <p
               className="text-white my-4 text-2xl"
@@ -44,13 +60,14 @@ const Landing = () => {
             >
               I'm a{" "}
               <span className="text-red-500 font-semibold">
-                Frontend Software Developer
+                Software Developer
               </span>{" "}
               with a passion for web development with{" "}
               <span className="text-red-500 font-semibold">amazing</span> client
               experiences with the use of modern technologies like{" "}
-              <span className="text-red-500 font-semibold">React</span> and{" "}
-              <span className="text-red-500 font-semibold">Tailwind</span>
+              <span className="text-red-500 font-semibold">React</span>,{" "}
+              <span className="text-red-500 font-semibold">Tailwind</span> and{" "}
+              <span className="text-red-500 font-semibold">Next.js</span>
             </p>
             <div
               className="flex text-red-500"
