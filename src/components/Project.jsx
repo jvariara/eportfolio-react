@@ -110,13 +110,15 @@ const Project = ({ project }) => {
           ))}
         </div>
         <div className="flex">
-          <a
-            href={project.url}
-            target="_blank"
-            className="text-red-500 bg-white px-8 py-2 m-4 rounded-md text-2xl hover:opacity-75 duration-300"
-          >
-            Live
-          </a>
+          {project.url && (
+            <a
+              href={project.url}
+              target="_blank"
+              className="text-red-500 bg-white px-8 py-2 m-4 rounded-md text-2xl hover:opacity-75 duration-300"
+            >
+              Live
+            </a>
+          )}
           {project.github && (
             <a
               href={project.github}

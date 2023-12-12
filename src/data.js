@@ -39,6 +39,13 @@ import BreaditCreatePost from "./assets/projects/Reddit/BreaditCreatePost.png";
 import BreaditPost from "./assets/projects/Reddit/BreaditPost.png";
 import BreaditSettings from "./assets/projects/Reddit/BreaditSettings.png";
 
+import EToolHome from "./assets/projects/EvaluationTool/EToolHome.png";
+import EToolHistory from "./assets/projects/EvaluationTool/EToolHistory.png";
+import EToolLibrary from "./assets/projects/EvaluationTool/EToolLibrary.png";
+import EToolAddCourse from "./assets/projects/EvaluationTool/EToolAddCourse.png";
+import EToolAddSurvey from "./assets/projects/EvaluationTool/EToolAddSurvey.png";
+import EToolViewResults from "./assets/projects/EvaluationTool/EToolViewResults.png";
+
 import ReactImg from "./assets/languages/react.png";
 import JSImg from "./assets/languages/javascript.png";
 import HTMLImg from "./assets/languages/html5.png";
@@ -69,6 +76,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "UB Evaluation Tool",
+    description:
+      "Refactored and modernized UB CSE's current evaluation tool web application with usability in mind. Converted the application to a React single page application.",
+    tech: ["React", "JavaScript", "CSS", "Figma", "Trello", "MySQL", "PHP"],
+    pictures: [
+      EToolHome,
+      EToolHistory,
+      EToolLibrary,
+      EToolAddCourse,
+      EToolAddSurvey,
+      EToolViewResults,
+    ],
+  },
+  {
+    id: 3,
     title: "Library E-Commerce",
     url: "https://library-react-mu.vercel.app/",
     github: "https://github.com/jvariara/Library-React",
@@ -84,7 +106,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "CircleUB",
     url: "https://webdev.cse.buffalo.edu/hci/teams/pentagon",
     description:
@@ -101,7 +123,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Breadit",
     url: "https://reddit-clone-rosy.vercel.app/",
     github: "https://github.com/jvariara/reddit-clone",
@@ -119,7 +141,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Promptopia",
     url: "https://promptopia-jvariara.vercel.app/",
     github: "https://github.com/jvariara/Promptopia",
@@ -137,16 +159,6 @@ export const projects = [
       "Designed, developed, and hosted from scratch a movie/TV lookup app using HTML5, CSS3 + BEM and React best practices. Uses the OMDB API.",
     tech: ["React", "Redux", "JavaScript", "CSS", "HTML"],
     pictures: [MovieLanding, MovieList, MovieDetail],
-  },
-  {
-    id: 7,
-    title: "Netflix Clone",
-    url: "https://netflix-clone-1dcd3.web.app/",
-    github: "https://github.com/jvariara/netflix-clone",
-    description:
-      "Application clone based on Netflix which uses Firebase for Google Sign-in/Logout Authentication as well as for the user database.",
-    tech: ["React", "Firebase", "Tailwind", "JavaScript", "HTML"],
-    pictures: [NetflixLanding, NetflixSignIn],
   },
 ];
 
