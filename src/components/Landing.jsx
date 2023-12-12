@@ -84,7 +84,7 @@ const Landing = () => {
               </a>
               <a
                 className="mr-5 hover:scale-125 duration-300 ease-in-out"
-                href="https://www.linkedin.com/in/justin-variara-a2183a22a/"
+                href="https://www.linkedin.com/in/justinvariara/"
                 target="_blank"
               >
                 <LinkedInIcon />

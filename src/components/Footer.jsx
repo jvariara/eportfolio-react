@@ -7,7 +7,7 @@ const Footer = () => {
     { name: "Github", link: "https://github.com/jvariara" },
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/justin-variara-a2183a22a/",
+      link: "https://www.linkedin.com/in/justinvariara/",
     },
     { name: "Resume", link: Resume },
   ];
